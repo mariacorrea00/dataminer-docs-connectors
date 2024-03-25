@@ -33,24 +33,7 @@ This connector uses a virtual connection and does not require any input during e
 ### Initialization
 
 A Generic KAFKA Consumer element must be created and configured before an IntelSat Flex Platform VSAT element is started.
-
-## How to use
-
-### Remotes Page
-
-On the **Remotes** page of this connector, you will find the Remotes Overview table. This table is populated with data retrieved from the Intelsat Flex REST API.
-
-### Remote Stats Page
-
-On the **Remotes Stats** page of this connector, you will find the Terminals and SSPCs tables.
-
-The Terminals table is populated with data retrieved both from the KAFKA broker via the Generic KAFKA Consumer and from the Intelsat Flex REST API.
-
-The SSPCs Table is populated with data retrieved from the KAFKA broker via the Generic KAFKA Consumer.
-
-### Circuits Page
-
-On the **Circuits** page of this connector, you will find the Circuits Overview table, which contains all the information related to the circuits. This table is populated with data retrieved from the provisioning files, which contain information from the database.
+On the **Configuration** page you can configure the element to receive the appropriate data from KAFKA and the REST API respectively. 
 
 ### Configuration Page
 
@@ -80,3 +63,22 @@ On the right-hand side of the page, you can find the controls for the ID Notify 
 
 - The ID Import Settings section contains controls to enable/disable the process of importing IDs from CSV files, as well as the path where the files are located and the current status of this process.
 - The ID Export Settings section is similar to the ID Import Settings section, except that its controls apply to the process of exporting CSV files with ID requests.
+
+
+## How to use
+
+### Remotes Page
+
+On the **Remotes** page of this connector, you will find the Remotes Overview table. This table is populated with data retrieved from the Intelsat Flex REST API.
+
+### Remote Stats Page
+
+On the **Remotes Stats** page of this connector, you will find the Terminals and SSPCs tables.
+
+The Terminals table is populated with data retrieved both from the KAFKA broker via the Generic KAFKA Consumer and from the Intelsat Flex REST API.
+
+The SSPCs Table is populated with data retrieved from the KAFKA broker via the Generic KAFKA Consumer.
+
+### Circuits Page
+
+On the **Circuits** page of this connector, you will find the Circuits Overview table, which contains all the information related to the circuits. This table is populated with data retrieved from the provisioning files, which contain information from the database.
